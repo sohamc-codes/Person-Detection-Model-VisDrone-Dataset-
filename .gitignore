@@ -1,0 +1,30 @@
+# Virtual environments
+.drone/
+venv/
+env/
+.venv/
+
+# Large model files
+*.pt
+*.pth
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Results and runs
+runs/
+results/
+
+# System
+.DS_Store
+Thumbs.db

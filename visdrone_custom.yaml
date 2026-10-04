@@ -1,0 +1,12 @@
+path: ./data
+
+train: train/images
+val:   val/images
+test:  test/images
+
+nc: 4
+names:
+  0: person
+  1: vehicle
+  2: two-wheeler
+  3: other
